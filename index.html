@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Apex Cash Loans | Loan Statement</title>
+
+<style>
+
+body{
+font-family: "Segoe UI", Arial, sans-serif;
+background:#eef1f7;
+margin:0;
+}
+
+.topbar{
+background:#ffffff;
+padding:15px;
+border-bottom:3px solid #564AC6;
+text-align:center;
+}
+
+.logo{
+height:70px;
+max-width:100%;
+}
+
+.container{
+max-width:1050px;
+margin:40px auto;
+background:white;
+padding:35px;
+border-radius:8px;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.account-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:25px;
+flex-wrap:wrap;
+}
+
+.account-title{
+font-size:22px;
+font-weight:600;
+}
+
+.verify{
+background:#e8ebff;
+padding:8px 14px;
+border-radius:6px;
+font-size:13px;
+margin-top:5px;
+}
+
+.client-box{
+background:#f7f8fc;
+padding:15px;
+border-left:4px solid #564AC6;
+margin-bottom:25px;
+}
+
+.table-wrap{
+overflow-x:auto;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+font-size:14px;
+min-width:600px;
+}
+
+th{
+background:#564AC6;
+color:white;
+padding:12px;
+text-align:left;
+}
+
+td{
+padding:11px;
+border-bottom:1px solid #e4e4e4;
+}
+
+tr:nth-child(even){
+background:#f9f9fd;
+}
+
+.summary{
+margin-top:30px;
+width:50%;
+}
+
+.summary th{
+background:#333;
+}
+
+.action-bar{
+margin-top:35px;
+text-align:center;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:10px;
+}
+
+button{
+padding:11px 26px;
+border:none;
+border-radius:5px;
+font-size:14px;
+cursor:pointer;
+}
+
+.print-btn{
+background:#333;
+color:white;
+}
+
+.download-btn{
+background:#2c8c4f;
+color:white;
+}
+
+.close-btn{
+background:#564AC6;
+color:white;
+}
+
+.close-area{
+background:white;
+padding:25px;
+text-align:center;
+margin-top:40px;
+border-top:1px solid #ddd;
+}
+
+.footer-note{
+margin-top:15px;
+font-size:13px;
+color:#555;
+}
+
+/* MOBILE VERSION */
+
+@media (max-width:768px){
+
+.container{
+margin:15px;
+padding:20px;
+}
+
+.account-title{
+font-size:18px;
+}
+
+.verify{
+margin-top:10px;
+}
+
+.summary{
+width:100%;
+}
+
+.action-bar{
+flex-direction:column;
+align-items:center;
+}
+
+button{
+width:100%;
+max-width:320px;
+}
+
+.logo{
+height:55px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+<img src="https://www.image2url.com/r2/default/images/1776327385005-abd01533-761b-48e5-8693-36ef87d020ed.jpg" class="logo">
+</div>
+
+<div class="container">
+
+<div class="account-header">
+<div class="account-title">Loan Expense Reinbursement Schedule</div>
+<div class="verify">Verification ID: ACL-HILLIARD-2026-0414</div>
+</div>
+
+<div class="client-box">
+<b>Client:</b> Mr Hilliard Frank Kassel<br>
+<b>Loan Account:</b> 1,219900.00 ZAR<br>
+<b>Approved Loan:</b> R 1,219,900.00 ZAR
+</div>
+
+<div class="table-wrap">
+
+<table>
+
+<tr>
+<th>Date</th>
+<th>Amount (R)</th>
+<th>Bank</th>
+<th>Running Total (R)</th>
+</tr>
+
+<tr>
+<td>23/02/2026</td>
+<td>R 14,680.00</td>
+<td>Absa</td>
+<td>R 14,680.00</td>
+</tr>
+
+<tr>
+<td>02/04/2026</td>
+<td>R 38,420.00</td>
+<td>Absa</td>
+<td>R 38,420.00</td>
+</tr>
+
+</table>
+
+</div>
+
+<table class="summary">
+
+<tr>
+<th>Description</th>
+<th>Amount (R)</th>
+</tr>
+
+<tr>
+<td>Total Expenses</td>
+<td>53,100.00</td>
+</tr>
+
+<tr>
+<td><b>Grand Total</b></td>
+<td><b>53,100.00</b></td>
+</tr>
+
+</table>
+
+<div class="action-bar">
+
+<button class="print-btn" onclick="window.print()">Print Statement</button>
+
+<button class="download-btn" onclick="window.print()">Download PDF</button>
+
+</div>
+
+<div class="close-area">
+
+<button class="close-btn" onclick="window.location.href='https://www.apexcashloans.co.za/'">
+Close
+</button>
+
+<div class="footer-note">
+Authorized by Apex Cash Loans
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
